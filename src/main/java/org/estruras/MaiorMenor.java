@@ -8,6 +8,7 @@ public class MaiorMenor {
         numero = teclado.nextInt();
         maior=numero;
         menor=numero;
+
         for (i=2; i<10; i++){
             numero = teclado.nextInt();
             if(numero<menor){
