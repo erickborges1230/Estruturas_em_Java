@@ -1,4 +1,4 @@
-package org.estruras;
+package org.estruras.Faça_Enquanto;
 
 import java.util.Scanner;
 

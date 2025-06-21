@@ -1,14 +1,11 @@
-package org.estruras;
+package org.estruras.Laço_For;
 
-public class Fibonacci {
+public class SequenciaS {
     public static void main(String[] args) {
-        double s, s1, s2, s9=0, s10=0, s100=0, s10000=0;
-        s1=1;
-        s2=1;
-        for(int i = 3; i<=10000; i++){
-            s = s1 + s2; //Vai somar pois está dentro do laço!
-            s1 = s2;
-            s2 = s;
+        double s, s9=0, s10=0, s100=0, s10000=0;
+        s=1;
+        for(int i = 2; i<=10000; i++){
+            s=s+3; //Vai somar pois está dentro do laço!
             if(i==9)
                 s9 = s;
             else if (i == 10 )

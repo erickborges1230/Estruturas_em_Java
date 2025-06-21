@@ -1,4 +1,4 @@
-package org.estruras;
+package org.estruras.Enquanto;
 
 import java.util.Scanner;
 

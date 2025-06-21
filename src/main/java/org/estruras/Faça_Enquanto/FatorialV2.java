@@ -1,8 +1,8 @@
-package org.estruras;
+package org.estruras.Faça_Enquanto;
 
 import java.util.Scanner;
 
-public class Fatorial {
+public class FatorialV2 {
     public static void main(String[] args) {
         double fatorial = 1;
         int numero;
@@ -12,11 +12,11 @@ public class Fatorial {
         System.out.println("Favor informar um número");
         numero = teclado.nextInt();
         int i = numero;
-
-        while (i >= 1){
+        do
+        {
             fatorial = fatorial * i;
             i--; //Numero = numero - 1
-        }
+        }while (i >= 1);
         System.out.println("O fatorial do número: "+numero+" = "+fatorial);
     }
 }

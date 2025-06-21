@@ -1,4 +1,4 @@
-package org.estruras;
+package org.estruras.Laço_For;
 
 import java.util.Scanner;
 
