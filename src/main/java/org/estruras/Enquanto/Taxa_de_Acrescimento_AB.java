@@ -1,4 +1,4 @@
-package org.estruras;
+package org.estruras.Enquanto;
 
 public class Taxa_de_Acrescimento_AB {
     public static void main(String[] args) {
